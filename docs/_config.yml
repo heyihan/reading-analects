@@ -2,3 +2,7 @@ title: The Analects of Confucius
 description: texts, notes, resources ...
 
 theme: jekyll-theme-leap-day
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
