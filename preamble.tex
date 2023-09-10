@@ -1,0 +1,39 @@
+\documentclass{book}
+\usepackage{subfiles}
+
+\usepackage[bookmarks=true,colorlinks,linkcolor=blue]{hyperref}
+%\usepackage[bookmarks=true,hidelinks]{hyperref}
+\usepackage{bookmark}
+
+%中文设置，以及字体设置
+\usepackage[slantfont,boldfont]{xeCJK} % 允许斜体和粗体
+\setCJKmainfont{SimSun}   % 设置缺省中文字体
+\setCJKmonofont{Microsoft YaHei UI Light}   % 设置等宽字体
+
+\usepackage{tikz}
+\usepackage{graphicx}
+\usetikzlibrary{arrows.meta} % Stealth
+\usetikzlibrary{shapes.misc} % rounded rectangle
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{matrix}
+\usetikzlibrary{graphs}
+\usetikzlibrary{calc}
+
+\tikzstyle{biz} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm,
+text centered, draw=black, fill=gray!30]
+\tikzstyle{base} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm,
+text centered, draw=black, fill=blue!30!yellow]
+
+\tikzstyle{cl} = [sloped, above] % call label
+
+\usepackage{adjustbox}
+
+%\usepackage{appendixnumberbeamer}
+
+%\pdfstringdefDisableCommands{
+%  \let\translate\empty
+%}
+
+\usepackage{csquotes}
